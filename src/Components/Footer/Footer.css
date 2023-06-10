@@ -1,14 +1,14 @@
 .footer{
+    
     background-color: rgb(4, 4, 75);
 }
 .footer-container{
-    width: auto;
-    height: 300px;
     color: white;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    padding: 2.2rem 2.24rem;
 }
+
 .social-icon{
     display: flex;
     justify-content: space-evenly;
@@ -21,8 +21,26 @@
 .footer-end{
     display: flex;
     color: white;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .footer hr{
     padding: 20px;
+    width: 100%;
 }
+@media (max-width: 576px) {
+   .footer{
+    background-color: rgb(4, 4, 75);
+    padding: 2.2rem 2.25rem;
+   }
+    
+    .footer-container{
+        color: white;
+        display: block;
+        text-align: left;
+        background-color: rgb(4, 4, 75);
+    } 
+    .footer-end{
+        display: block;
+    }
+    
+  }

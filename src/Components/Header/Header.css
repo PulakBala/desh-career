@@ -5,7 +5,11 @@
 .navbar-toggler-icon{
     background-color: red;
 }
-.hover:hover{
-    color: red;
-    background-color: red;
+.nav-item{
+    padding: 0px 10px;
+}
+
+.nav-item .item:hover{
+    background-color: rgb(245, 94, 94);
+    border-radius: 4px;
 }

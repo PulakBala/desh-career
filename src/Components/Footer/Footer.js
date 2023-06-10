@@ -7,8 +7,63 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
+    // <footer className="footer">
+    //     <div className="footer-container" >
+    //   <div>
+    //     <img
+    //       src="https://deshcareer.com/logo/short-logo.png"
+    //       alt=""
+    //       style={{ width: "200px" }}
+    //     ></img>
+    //     <p>
+    //       Desh Career is Career based newsletter <br /> in Bengap language. This
+    //       newsletter <br /> has pubpshed weekly. This is pubpshed in <br />{" "}
+    //       every Saturday at 12.00 PM.{" "}
+    //     </p>
+    //   </div>
+    //   <div className="privacy">
+    //     <div className="social-icon">
+    //       <span>
+    //         <FaFacebook />
+    //       </span>
+    //       <span>
+    //         <IoLogoYoutube />
+    //       </span>
+    //       <span>
+    //         <FaLinkedin />
+    //       </span>
+    //       {/* <span><Fapnkedin/></span> */}
+    //     </div>
+    //     <h2>Privacy And Terms</h2>
+    //     <div className="privacy-policy">
+    //       <p>Privacy Policy</p>
+    //       <p>Terms Conditions</p>
+    //       <p>FAQ</p>
+    //     </div>
+    //   </div>
+    //   <div>
+    //     <h2>Support</h2>
+    //     <p>Contact Us</p>
+    //     <p>Advertise Us</p>
+    //   </div>
+    // </div>
+    // <div className="container">
+    // <hr  style={{color:'gray', height:'5px',padding:'2px', border:'solid', backgroundColor:'gray'}}/>
+    // {/* <div className="footer-end">
+    //     <p>© 2023 Newsletter E-mail Service: All Copy right reserved</p>
+    //     <div className="d-flex gap-2">
+    //         <span>Term</span>
+    //         <span>Cookie Policy  </span>
+    //         <span>Term</span>
+    //         <span>Privacy</span>
+
+    //     </div>
+    // </div> */}
+    // </div>
+    // </footer>
+
     <footer className="footer">
-        <div className="footer-container">
+    <div className="footer-container text-white">
       <div>
         <img
           src="https://deshcareer.com/logo/short-logo.png"
@@ -16,9 +71,8 @@ const Footer = () => {
           style={{ width: "200px" }}
         ></img>
         <p>
-          Desh Career is Career based newsletter <br /> in Bengap language. This
-          newsletter <br /> has pubpshed weekly. This is pubpshed in <br />{" "}
-          every Saturday at 12.00 PM.{" "}
+          Desh Career is a career-based newsletter <br/> in the Bengali language. This
+          newsletter <br/> is published weekly and is released <br/> every Saturday at 12.00 PM.
         </p>
       </div>
       <div className="privacy">
@@ -32,11 +86,10 @@ const Footer = () => {
           <span>
             <FaLinkedin />
           </span>
-          {/* <span><Fapnkedin/></span> */}
         </div>
         <h2>Privacy And Terms</h2>
         <div className="">
-          <p>Privacy Popcy</p>
+          <p>Privacy Policy</p>
           <p>Terms Conditions</p>
           <p>FAQ</p>
         </div>
@@ -44,23 +97,23 @@ const Footer = () => {
       <div>
         <h2>Support</h2>
         <p>Contact Us</p>
-        <p>Advertise Us</p>
+        <p>Advertise with Us</p>
       </div>
     </div>
+   <hr  style={{color:'gray', height:'5px',padding:'2px', border:'solid', backgroundColor:'gray'}}/>
     <div className="container">
-    <hr  style={{color:'gray', height:'5px',padding:'2px', border:'solid', backgroundColor:'gray'}}/>
     <div className="footer-end">
         <p>© 2023 Newsletter E-mail Service: All Copy right reserved</p>
         <div className="d-flex gap-2">
             <span>Term</span>
-            <span>Cookie Policy  </span>
+         <span>Cookie Policy  </span>
             <span>Term</span>
             <span>Privacy</span>
 
         </div>
-    </div>
-    </div>
-    </footer>
+   </div>
+   </div>
+  </footer>
   );
 };
 

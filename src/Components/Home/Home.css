@@ -20,3 +20,45 @@
     margin-top: 24px;
     margin-left: 20px;
 }
+
+@media (max-width: 576px) {
+    .home{
+        display: block;
+        width: auto;
+    }
+    .home .Home-hedline{
+        font-size: 2.2rem;
+        font-weight: 600;
+        line-height: 1.2;
+      
+    }
+    .home-p{
+        padding-top: 50px;
+        margin-top: 30px;
+    }
+    .input-area{
+         height: 12rem;
+         display: block;
+         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+         margin-bottom: 20px;
+         border: none;
+     }
+     .input-area .input .email-icon{
+        background-color: red;
+     }
+     .input-area .input{
+        width: 100%;
+        border: none;
+    }
+    .input-area .email-icon{
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-link{
+        width: 130px;
+        margin-top: 30px;
+        border-radius: 5px;
+       
+    }
+  }

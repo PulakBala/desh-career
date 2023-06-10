@@ -15,13 +15,13 @@ const Header = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto"></Nav>
-        <Nav className="gap-4 fs-5 text-center">
-          <Link className="text-dark" style={{ textDecoration: "none" }} to="/">Home</Link>
-          <Link className="text-dark" style={{ textDecoration: "none" }} to="/privacy">Privacy Policy</Link>
-          <Link className="text-dark" style={{ textDecoration: "none" }} to="/terms&condition">TermsConditions</Link>
-          <Link className="text-dark" style={{ textDecoration: "none" }} to="/aboutUs">About Us</Link>
-          <Link className="text-dark" style={{ textDecoration: "none" }} to="/contactUs">Contact Us</Link>
-          <Link className="text-dark" style={{ textDecoration: "none" }} to="/advertisement">Advertise</Link>
+        <Nav className="nav-item gap-4 fs-5 text-center ">
+          <Link className="text-dark item" style={{ textDecoration: "none" }} to="/">Home</Link>
+          <Link className="text-dark item" style={{ textDecoration: "none" }} to="/privacy">Privacy Policy</Link>
+          <Link className="text-dark item" style={{ textDecoration: "none" }} to="/terms&condition">TermsConditions</Link>
+          <Link className="text-dark item" style={{ textDecoration: "none" }} to="/aboutUs">About Us</Link>
+          <Link className="text-dark item" style={{ textDecoration: "none" }} to="/contactUs">Contact Us</Link>
+          <Link className="text-dark item" style={{ textDecoration: "none" }} to="/advertisement">Advertise</Link>
           <button className='bg-danger border rounded'>
               <Link className="text-dark bg-danger " style={{textDecoration:"none"}}>Join Now</Link>
            </button>

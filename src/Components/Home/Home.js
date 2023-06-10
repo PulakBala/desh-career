@@ -13,7 +13,7 @@ const Home = () => {
                 <input placeholder='Your E-mail address' style={{border:'none', outline:'none'}}></input>
                 <button className='nav-link fs-3' style={{border:"none",backgroundColor:'red', borderRadius:'10px'}}>Join Free</button>
             </div>
-            <p className='mt-3'>We're committed to your privacy. DashCareer uses the information you provide to contact you about our relevant content and services. You may unsubscribe from these communications at any time. For more information, check out our Privacy Policy.</p>
+            <p className='mt-3 home-p'>We're committed to your privacy. DashCareer uses the information you provide to contact you about our relevant content and services. You may unsubscribe from these communications at any time. For more information, check out our Privacy Policy.</p>
         </div>
     );
 };
