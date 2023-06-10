@@ -3,7 +3,7 @@ import React from 'react';
 const ContactUs = () => {
     return (
         <div className='container'>
-            <h1>Contract Us</h1>
+            <h1 className='mt-5'>Contract Us</h1>
             <br></br>
             <p>
 If you want to contact us: you can send an email to contact.deshcareer@gmail.com

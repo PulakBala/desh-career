@@ -5,7 +5,8 @@ const Privacy = () => {
   return (
     <div className="container">
       <div className="privacy-policy">
-        <h2>Privacy Policy</h2>
+        <h2 className='mt-5'>Privacy Policy</h2>
+        <br/>
         <p>
           Effective date: April 04, 2023. Bangla Puzzle Limited ("us", "we", or
           "our") operates the www.deshcareer.com website (the "Service"). This

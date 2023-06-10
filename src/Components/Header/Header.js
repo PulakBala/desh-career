@@ -20,8 +20,8 @@ const Header = () => {
           <Link className="text-dark" style={{ textDecoration: "none" }} to="/privacy">Privacy Policy</Link>
           <Link className="text-dark" style={{ textDecoration: "none" }} to="/terms&condition">TermsConditions</Link>
           <Link className="text-dark" style={{ textDecoration: "none" }} to="/aboutUs">About Us</Link>
-          <Link className="text-dark" style={{ textDecoration: "none" }} to="/">Contact Us</Link>
-          <Link className="text-dark" style={{ textDecoration: "none" }} to="/">Advertise</Link>
+          <Link className="text-dark" style={{ textDecoration: "none" }} to="/contactUs">Contact Us</Link>
+          <Link className="text-dark" style={{ textDecoration: "none" }} to="/advertisement">Advertise</Link>
           <button className='bg-danger border rounded'>
               <Link className="text-dark bg-danger " style={{textDecoration:"none"}}>Join Now</Link>
            </button>

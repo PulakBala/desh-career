@@ -3,10 +3,10 @@ import React from "react";
 const TermsCondition = () => {
   return (
     <div className="container">
-      <h2>Terms & Condition</h2>
-      <br />
+      <h2 className='mt-5'>Terms & Condition</h2>
       <h2>Terms and Condition</h2>
       <br />
+      <br/>
 
       <p>
         Effective date: April 04, 2023.

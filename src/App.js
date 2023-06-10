@@ -7,6 +7,7 @@ import Privacy from './Components/Privacy/Privacy';
 import TermsCondition from './Components/TermsCondition/TermsCondition';
 import About from './Components/About/About';
 import ContactUs from './Components/ContactUs/ContactUs';
+import Advertise from './Components/Advertise/Advertise';
 
 function App() {
   const router = createBrowserRouter([
@@ -33,6 +34,10 @@ function App() {
             {
               path: '/contactUs',
               element: <ContactUs></ContactUs>
+            },
+            {
+              path: '/advertisement',
+              element: <Advertise></Advertise>
             }
         ]
     }

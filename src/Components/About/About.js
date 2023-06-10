@@ -3,7 +3,8 @@ import React from 'react';
 const About = () => {
     return (
         <div className='container'>
-            <h1>About Us</h1>
+            <h1 className='mt-5'>About Us</h1>
+            <br/>
             <br/>
             <p>Desh Career is Career based newsletter in Bengali language. This newsletter has published weekly. This is published in every Saturday at 12.00 PM. 
                 <br/>
