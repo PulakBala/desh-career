@@ -1,0 +1,10 @@
+.Container{
+    padding: 30px 0px;
+    height: 100px;
+}
+.navbar-toggler-icon{
+    background-color: red;
+}
+.hover:hover{
+    color: red;
+}

@@ -1,0 +1,28 @@
+.footer{
+    background-color: rgb(4, 4, 75);
+}
+.footer-container{
+    width: auto;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.privacy .footer-privacy {
+    align-items: center;
+    justify-content: center;
+}
+.footer-end{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.footer hr{
+    padding: 20px;
+}
