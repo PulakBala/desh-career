@@ -18,8 +18,8 @@ const Header = () => {
         <Nav className="gap-4 fs-5 text-center">
           <Link className="text-dark" style={{ textDecoration: "none" }} to="/">Home</Link>
           <Link className="text-dark" style={{ textDecoration: "none" }} to="/privacy">Privacy Policy</Link>
-          <Link className="text-dark" style={{ textDecoration: "none" }} to="/">TermsConditions</Link>
-          <Link className="text-dark" style={{ textDecoration: "none" }} to="/">About Us</Link>
+          <Link className="text-dark" style={{ textDecoration: "none" }} to="/terms&condition">TermsConditions</Link>
+          <Link className="text-dark" style={{ textDecoration: "none" }} to="/aboutUs">About Us</Link>
           <Link className="text-dark" style={{ textDecoration: "none" }} to="/">Contact Us</Link>
           <Link className="text-dark" style={{ textDecoration: "none" }} to="/">Advertise</Link>
           <button className='bg-danger border rounded'>

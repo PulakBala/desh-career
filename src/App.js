@@ -4,6 +4,9 @@ import './App.css';
 import Main from './Components/Layout/Main';
 import Home from './Components/Home/Home';
 import Privacy from './Components/Privacy/Privacy';
+import TermsCondition from './Components/TermsCondition/TermsCondition';
+import About from './Components/About/About';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 function App() {
   const router = createBrowserRouter([
@@ -18,6 +21,18 @@ function App() {
             {
               path: '/privacy',
               element: <Privacy></Privacy>
+            },
+            {
+              path: '/terms&condition',
+              element: <TermsCondition></TermsCondition>
+            },
+            {
+              path: '/aboutUs',
+              element: <About></About>
+            },
+            {
+              path: '/contactUs',
+              element: <ContactUs></ContactUs>
             }
         ]
     }
